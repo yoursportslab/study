@@ -1,0 +1,244 @@
+/* Основные стили для типографики и цветовой схемы */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+}
+
+/* Заголовки */
+h1 {
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2%;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2%;
+}
+
+/* Основной текст */
+.body-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+/* Маленький текст */
+.small-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 4%;
+}
+
+/* Средний текст */
+.medium-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+/* Текст кнопок */
+.button-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+}
+
+/* Ссылки */
+.link-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 4%;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+/* Цветовая палитра в классическом CSS */
+.primary-brand {
+    background-color: #4D5AE5;
+    color: white;
+}
+
+.pressed-state {
+    background-color: #404BBF;
+    color: white;
+}
+
+.dark {
+    background-color: #2E2F42;
+    color: white;
+}
+
+.success {
+    background-color: #31D0AA;
+    color: white;
+}
+
+.text {
+    color: #434455;
+}
+
+.subtle-text {
+    color: #8E8F99;
+}
+
+.accent {
+    background-color: #E7E9FC;
+}
+
+.light {
+    background-color: #F4F4FD;
+}
+
+.modal-overlay {
+    background-color: #2E2F42;
+}
+
+.hero-background {
+    background-color: #2E2F42;
+}
+
+.white-background {
+    background-color: #FFFFFF;
+}
+
+.modal-background {
+    background-color: #FCFCFC;
+}
+
+/* Стили для кнопок */
+.button {
+    background-color: #4D5AE5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #404BBF;
+}
+
+/* Стили для карточек команды */
+.team-card {
+    border: 1px solid #E7E9FC;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.team-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.team-card .name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2E2F42;
+}
+
+.team-card .role {
+    font-size: 14px;
+    color: #8E8F99;
+}
+
+/* Стили для иконок соцсетей */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #31D0AA;
+    color: white;
+}
+
+.social-icons a:hover {
+    background-color: #2E2F42;
+}
+
+/* Стили для карточек проектов */
+.project-card {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.project-card img {
+    width: 100%;
+    display: block;
+}
+
+.project-card .description {
+    padding: 15px;
+    background-color: #4D5AE5;
+    color: white;
+}
+
+/* Стили для модального окна */
+.modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #E7E9FC;
+    border-radius: 5px;
+}
+
+.modal input:focus {
+    border-color: #4D5AE5;
+}
+
+/* Стили для чекбоксов и кнопок закрытия */
+.checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox:checked {
+    background-color: #4D5AE5;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    color: #4D5AE5;
+}
